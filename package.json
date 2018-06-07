@@ -1,0 +1,18 @@
+{
+  "name": "mobx-create-store",
+  "version": "1.0.0",
+  "description": "Mobx minimal API",
+  "main": "dist.js",
+  "scripts": {
+    "prepublish": "babel index.js -o dist.js"
+  },
+  "author": "Robert Gonzales",
+  "license": "MIT",
+  "dependencies": {
+    "mobx": "^4.3.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
